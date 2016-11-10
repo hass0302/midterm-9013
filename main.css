@@ -1,16 +1,18 @@
 /**************************************************
 Fonts
-Droid Serif
-Droid Sans
-Droid Sans Mono
+Open Sans
+Roboto Slab
+Merriweather
+PT Sans
 
 Font Scaling
 6.854rem
 4.236rem
 2.618rem
 1.618rem
+1.2rem
 1.0rem
-0.618rem
+0.925 rem
 
 Colour scheme
 
@@ -44,11 +46,14 @@ h2 {
 }
 
 li,
-p,
 a {
     font: bold 1.618rem 'Open Sans', 'PT Sans', sans-serif;
     text-align: center;
     text-decoration: none;
+}
+
+p {
+    font: bold 1.2rem 'Open Sans', 'PT Sans', sans-serif;
 }
 
 pre,
@@ -133,6 +138,11 @@ footer li {
 
 footer a {
     text-decoration: none;
+    font-size: 0.925rem;
+}
+
+footer p {
+    font-size: 0.925rem;
 }
 
 img {
